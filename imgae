@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGAPE MEN</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .logo {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="images/Screenshot 2024-02-13 16.38.44.png" alt="AGAPE MEN Logo">
+</body>
+</html>
