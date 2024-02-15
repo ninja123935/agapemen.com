@@ -6,66 +6,24 @@
     <title>AGAPE MEN</title>
     <style>
         body {
-            background-color: #6441a5;
-            color: white;
-            font-family: Arial, sans-serif;
+            background-color: #6736c2;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
         }
         
-        header {
-            padding: 20px;
-            text-align: center;
-        }
-        
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 20px 0;
-            text-align: center;
-        }
-        
-        nav ul li {
-            display: inline-block;
-            margin: 0 10px;
-        }
-        
-        a {
-            text-decoration: none;
-            color: white;
-        }
-        
-        main {
-            padding: 20px;
-        }
-        
-        iframe {
-            border-radius: 12px;
-            width: 100%;
-            height: 352px;
+        .agape-men {
+            color: black;
+            font-size: 6rem;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>AGAPE MEN</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <h2>Welcome to AGAPE MEN!</h2>
-        <p>Here, you'll find everything you need to know about men's fashion and lifestyle.</p>
-
-        <!-- Embedding Spotify iframe -->
-        <iframe src="https://open.spotify.com/embed/show/06cBaOjMaExYvJ8H9JzkSc?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </main>
+    <div class="agape-men">AGAPE MEN</div>
 </body>
 </html>
